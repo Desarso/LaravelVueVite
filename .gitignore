@@ -11,6 +11,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 Dockerfile
+vendor
 docker-compose.yml
 docker-compose.yaml
 **.git

@@ -14,6 +14,7 @@
 		// "onecentlin.laravel5-snippets",
 		// "onecentlin.laravel-blade"
 	],
+	"remoteUser": "sail",
 	"postCreateCommand": "chown -R 1000:1000 /var/www/html"
 	// "forwardPorts": [],
 	// "runServices": [],

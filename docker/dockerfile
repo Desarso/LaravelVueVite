@@ -1,0 +1,5 @@
+FROM desarso/laravelenv
+
+WORKDIR /var/www/html
+
+EXPOSE 8000

@@ -1,5 +1,9 @@
 FROM desarso/laravelenv
 
+ARG WWWGROUP
+ARG WWWUSER
+
+
 WORKDIR /var/www/html
 
 EXPOSE 8000

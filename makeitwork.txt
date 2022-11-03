@@ -3,8 +3,7 @@
 
 //delete every image and container
 
-docker rm -vf $(docker ps -aq)
-docker rmi -f $(docker images -aq)
+docker rm -vf $(docker ps -aq) && docker rmi -f $(docker images -aq)
 
 make sure every file in docker folder has rf line endings
 
@@ -17,13 +16,13 @@ WWWUSER=1000
 docker compose build --no-cache
 docker compose up
 //make sure both containers stay running
-docker compose down
+docker compose down or control c to stop
 
-the control shift p and open devcontainer
+
+
+the control shift p and reopen in container
 
 
 open file in container
 
-composer install
-
-npm i
+composer i && npm i

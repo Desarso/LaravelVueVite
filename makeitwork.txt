@@ -1,0 +1,18 @@
+When I create the docker file the file can't create the correct user 
+
+
+delete every image and container
+
+git pull project
+
+make sure docker files have rf endings
+
+copy .evn file
+
+docker compose build --no-cache
+
+open file in container
+
+composer install
+
+npm i

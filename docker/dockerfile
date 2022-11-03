@@ -1,1 +1,3 @@
 FROM desarso/laraveldev:8
+
+CMD composer install && npm install

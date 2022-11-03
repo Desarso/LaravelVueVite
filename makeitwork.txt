@@ -1,15 +1,26 @@
-When I create the docker file the file can't create the correct user 
+//When I create the docker file the file can't create the correct user 
 
 
-delete every image and container
+//delete every image and container
 
-git pull project
+docker rm -vf $(docker ps -aq)
+docker rmi -f $(docker images -aq)
 
-make sure docker files have rf endings
+make sure every file in docker folder has rf line endings
 
-copy .evn file
+copy .evn file or add the following
+to example and rename to .env
+
+WWWGROUP=1000
+WWWUSER=1000
 
 docker compose build --no-cache
+docker compose up
+//make sure both containers stay running
+docker compose down
+
+the control shift p and open devcontainer
+
 
 open file in container
 

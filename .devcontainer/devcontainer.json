@@ -1,6 +1,6 @@
 // https://aka.ms/devcontainer.json
 {
-	"name": "Laravel 9 First",
+	"name": "Laravel 9 Base",
 	"dockerComposeFile": [
 		"../docker-compose.yml"
 	],

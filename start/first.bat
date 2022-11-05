@@ -10,8 +10,8 @@ IF exist  %CD%\.env (
 
 cls
 
-@REM docker rm -vf $(docker ps -aq) 
-@REM docker rmi -f $(docker images -aq)
+docker rm -vf $(docker ps -aq) 
+docker rmi -f $(docker images -aq)
 
 docker compose build --no-cache
 docker compose up

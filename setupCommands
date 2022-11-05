@@ -1,13 +1,15 @@
 in windows:
-    !!warning it will delete all docker images
+**    !!warning it will delete all docker images**
     and containers
 
     cmd
 
-    start\first.bat
+    # start\first.bat
+
+
     or bash
 
-    start/first.bat
+    # start/first.bat
 
 
 then press control shift p
@@ -17,6 +19,6 @@ In container:
 
     run 
     
-    start/first.sh
+    # start/first.sh
 
 

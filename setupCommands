@@ -1,0 +1,22 @@
+in windows:
+    !!warning it will delete all docker images
+    and containers
+
+    cmd
+
+    start\first.bat
+    or bash
+
+    start/first.bat
+
+
+then press control shift p
+and look for reopen in container
+
+In container:
+
+    run 
+    
+    start/first.sh
+
+

@@ -1,0 +1,4 @@
+mysql -h mysql -u root;
+
+SHOW GLOBAL VARIABLES LIKE 'PORT';
+

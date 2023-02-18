@@ -22,7 +22,7 @@ defineProps<{
 			<div class="mt-8 bg-white dark:bg-zinc-800 overflow-hidden shadow sm:rounded-lg">
 				<div class="grid grid-cols-1 md:grid-cols-2">
 					<ResourceBlock
-						name="Documentation"
+						name="Hello there!!!!!"
 						description="Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end."
 					/>
 

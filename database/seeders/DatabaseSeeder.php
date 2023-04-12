@@ -1,24 +1,58 @@
 <?php
-
 namespace Database\Seeders;
-
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // $this->call(ActivityTableSeeder::class);
+        // $this->call(GanttLinkTableSeeder::class);
+        
+        $this->call([            
+            AppTableSeeder::class,
+            MenuSeeder::class,
+            TicketStatusTableSeeder::class,
+            RoleTableSeeder::class,
+            TeamTableSeeder::class,
+            TicketPriorityTableSeeder::class,
+            ChecklistTableSeeder::class,
+            ItemTableSeeder::class,
+            CleaningStatusTableSeeder::class,
+            SpotTableSeeder::class,
+            UserTableSeeder::class,           
+            PriorityTableSeeder::class,
+            
+           
+            BookingStatusTableSeeder::class,
+            OrganizationTableSeeder::class,
+            SettingUpdateTableSeeder::class,
+            
+            AssetCategoryTableSeeder::class,
+            AssetStatusTableSeeder::class,
+            AssetTableSeeder::class,
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+            ProtocolTypeTableSeeder::class,
+            ProtocolTableSeeder::class,
+            
+            // ProductDestinationTableSeeder::class,
+            // PrductionBreakTableSeeder::class,
+            // ProductionStatusTableSeeder::class,
+            // ProductionInputTableSeeder::class,
+            // ProductionFormulaTableSeeder::class,
+            // ProductCategoryTableSeeder::class,
+            // EquipmentTableSeeder::class,          
+            // ProductionStopTableSeeder::class,
+            // EquipmentTypeTableSeeder::class,
+            // EquipmentStatusTableSeeder::class,
+            // ProductionScheduleTableSeeder::class,
+            // ProductionTableSeeder::class,
+
+            WarehouseItemTableSeeder::class,
+            WarehouseStatusTableSeeder::class,
+
+        ]);
+
+        
     }
 }

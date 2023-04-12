@@ -7,7 +7,7 @@ services:
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
-                WWWUSER: '${WWWUSER}'
+                # WWWUSER: '${WWWUSER}'
         image: laravel9-project1
         extra_hosts:
             - 'host.docker.internal:host-gateway'
@@ -26,11 +26,10 @@ services:
         depends_on:
             - mysql
     mysql:
-        image: 'mysql/mysql-server:8.0'
+        image: 'mysql/mysql-server:latest'
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
-            WWWUSER: '${WWWUSER}'
             MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
             MYSQL_ROOT_HOST: "%"
             MYSQL_DATABASE: '${DB_DATABASE}'
@@ -42,7 +41,11 @@ services:
         networks:
             - sail
         healthcheck:
-            test: ["CMD", "mysqladmin", "ping", "-p${DB_PASSWORD}"]
+            test:
+                - CMD
+                - mysqladmin
+                - ping
+                - '-p${DB_PASSWORD}'
             retries: 3
             timeout: 5s
 networks:

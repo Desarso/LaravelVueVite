@@ -1,0 +1,69 @@
+removed code
+
+   @include('panels/styles')
+
+
+   //the styles.blade.php file needs to be updated to use vite
+   instead of mix
+
+
+//removed from end script of contentLayoutMaster
+
+
+       //Setting global lists in all views
+    // window.global_statuses     = {!! $global_statuses !!};
+    // window.global_items        = {!! $global_items !!};
+    // window.global_priorities   = {!! $global_priorities !!};
+    // window.global_spots        = {!! $global_spots !!};
+    // window.global_spot_types   = {!! $global_spot_types !!};
+    // window.global_users        = {!! $global_users !!};
+    // window.global_teams        = {!! $global_teams !!};
+    // window.global_ticket_types = {!! $global_ticket_types !!};
+    // window.global_permissions  = {!! $global_permissions !!};
+    // window.global_tags         = {!! $global_tags !!};
+    // window.global_assets       = {!! $global_assets !!};
+    // window.global_checklist    = {!! $global_checklist !!};
+    // window.global_roles        = {!! $global_roles !!};
+    //Setting global lists in all views
+
+    //Setting global user
+    window.user = {!! Auth::user() !!};
+    window.organization = {!! $organization !!};
+
+
+//removed this too
+
+
+
+@isset($configData["mainLayoutType"])
+@extends((( $configData["mainLayoutType"] === 'horizontal') ? 'layouts.horizontalLayoutMaster' :
+'layouts.verticalLayoutMaster' ))
+@endisset
+
+
+removed from verticalLayoutMaster
+ {{-- Include Sidebar --}}
+  @include('panels.sidebar')
+
+
+  //nav bar
+      @include('panels.navbar')
+
+//breadcrumb
+  @if($configData['pageHeader'] === true && isset($configData['pageHeader']))
+      @include('panels.breadcrumb')
+      @endif
+
+//after end content
+@if($configData['blankPage'] == false && isset($configData['blankPage']))
+  @include('pages/customizer')
+
+  @include('pages/create-task-button')
+  @endif
+
+  //fotter things
+    {{-- include footer --}}
+  @include('panels/footer')
+
+  {{-- include default scripts --}}
+  @include('panels/scripts')

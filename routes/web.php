@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\Config\AppController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +17,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return inertia('welcome');
+});
+
+Route::namespace ('Config')->group(function () {
+    Route::get('/config-apps', [AppController::class, 'index']);
+
 });

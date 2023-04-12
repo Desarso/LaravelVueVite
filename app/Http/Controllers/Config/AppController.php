@@ -9,7 +9,7 @@ use App\Repositories\AppRepository;
 
 class AppController extends Controller
 {
-    public $app;
+    protected $app;
 
     public function __construct(AppRepository $app)
     {

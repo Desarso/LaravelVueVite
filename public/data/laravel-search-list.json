@@ -1,0 +1,15 @@
+[
+    { "name": "Configuración",       "url": "config-dashboard",  "icon": "fa fa-server" },
+    { "name": "Dashboard de Tareas", "url": "dashboard-tasks",   "icon": "fad fa-home-lg-alt" },
+    { "name": "Tipos de Spots",      "url": "config-spottypes",  "icon": "fa fa-car-building" },
+    { "name": "Spots",               "url": "config-spots",      "icon": "fa fa-house" },
+    { "name": "Tipos de Tarea",      "url": "config-tasktypes",  "icon": "fa fa-flask-potion" },
+    { "name": "Items",               "url": "config-items",      "icon": "fa fa-tools" },
+    { "name": "Equipos",             "url": "config-teams",      "icon": "fa fa-users-class" },
+    { "name": "Usuarios",            "url": "config-users",      "icon": "fa fa-users" },
+    { "name": "Checklist",           "url": "config-checklists", "icon": "fa fa-tasks" },
+    { "name": "Roles",               "url": "config-roles",      "icon": "fad fa-user-unlock" },
+    { "name": "Planificador",        "url": "config-planner",    "icon": "fa fa-clipboard-user" },
+    { "name": "Activos",             "url": "config-assets",     "icon": "fad fa-forklift" },
+    { "name": "Asistencia",          "url": "attendance",        "icon": "fa fa-clipboard-user" }
+]

@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+// use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LanguageController;
-use App\Http\Controllers\Config\AppController;
+// use App\Http\Controllers\Config\AppController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,12 +14,17 @@ use App\Http\Controllers\Config\AppController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// //Login
+// Auth::routes();
+// //Login
+
 
 Route::get('/', function () {
     return inertia('welcome');
 });
 
-Route::namespace ('Config')->group(function () {
-    Route::get('/config-apps', [AppController::class, 'index']);
+Route::namespace ('App\Http\Controllers\Config')->group(function () {
+    // Route::get('/config-apps', [AppController::class, 'index']);
+    Route::get('/config-apps', 'AppController@index');
 
 });

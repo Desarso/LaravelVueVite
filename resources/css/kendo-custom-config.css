@@ -1,0 +1,221 @@
+.k-widget {
+  font-family: "Montserrat", Helvetica, Arial, serif;
+}
+
+.k-pager-wrap .k-link {
+  color: #7367f0;
+}
+
+.k-pager-numbers .k-state-selected {
+  border-color: #7367f0;
+  background-color: #7367f0;
+}
+
+.k-grid {
+  border: none !important;
+}
+
+.k-grid-header {
+  background: #F4F9F8 !important;
+  border-collapse: collapse !important;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  overflow: hidden;
+}
+
+.k-header .k-link {
+  text-align: center;
+}
+
+.btn-config {
+  background: #E5F5F4 !important;
+  height: 44px;
+}
+
+.k-tooltip {
+  background: #FFFFFF !important;
+  box-shadow: 2px 2px 6px #666;
+}
+
+/*
+.k-grid .k-grid-toolbar .k-grid-add,
+.k-grid tbody .k-grid-edit,
+.k-grid tbody .k-grid-update,
+.k-grid tbody .k-grid-cancel,
+.k-grid tbody .k-grid-delete {
+  min-width: 0 !important;
+}
+*/
+#colorPalette .k-reset {
+  border-collapse: separate !important;
+  border-spacing: 15px !important;
+}
+
+.k-colorpalette .k-item {
+  border-radius: 50% !important;
+}
+
+.k-colorpalette .k-item.k-state-focused,
+.k-colorpalette .k-item.k-state-selected,
+.k-colorpalette .k-item.k-state-selected:hover,
+.k-colorpalette .k-item:focus {
+  box-shadow: 0 1px 3px 1px rgba(12, 12, 12, 0.99), inset 0 0 0 1px #171515;
+  position: relative;
+  z-index: 100;
+}
+
+html .k-dialog .k-window-titlebar {
+  padding-left: 17px !important;
+}
+
+.k-dialog .k-content {
+  padding: 17px !important;
+}
+
+#filterText {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+}
+
+.selectAll {
+  margin: 17px 0;
+}
+
+#result {
+  color: #9ca3a6;
+  float: right;
+}
+
+#treeview {
+  height: 550px !important;
+  overflow-y: auto;
+  border: 1px solid #d9d9d9;
+}
+
+#openWindow {
+  min-width: 180px;
+}
+
+.k-block,
+.k-panel,
+.k-widget {
+  border-color: transparent;
+}
+
+/*
+.swal2-styled.swal2-cancel {
+    background-color:  red;
+}
+*/
+.k-dropdown .k-dropdown-wrap,
+.k-dropdowntree .k-dropdown-wrap {
+  background-color: transparent;
+}
+
+.k-label input[type=checkbox i] {
+  margin-right: 0.7rem !important;
+}
+
+/*
+.swal2-styled.swal2-confirm {
+    background-color: red !important;
+    width: 200px;
+}
+
+.swal2-styled.swal2-cancel {
+    width: 200px;
+    color: #27C1A7 !important;
+    background-color: transparent !important;
+    border: 2px solid #27C1A7;
+    font-weight: 700;
+    border-color: #27C1A7 !important;
+}
+
+.swal2-styled.swal2-cancel:hover {
+    color: white !important;
+    background-color: #27C1A7 !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+*/
+.btn-custom-outline-md:hover {
+  color: white !important;
+  background-color: #27C1A7 !important;
+  border-color: #27C1A7 !important;
+}
+
+.btn-config:hover {
+  color: white !important;
+  background-color: #27C1A7 !important;
+  border-color: #27C1A7 !important;
+}
+
+.k-action-buttons .k-button:first-child {
+  color: #27C1A7;
+  background-color: transparent;
+  margin: 0.3rem;
+  border: none;
+}
+
+.k-action-buttons .k-button:first-child:hover {
+  color: white !important;
+  background-color: #27C1A7 !important;
+  border-color: #27C1A7 !important;
+}
+
+.k-action-buttons .k-button:last-child {
+  color: #27C1A7 !important;
+  background-color: #E5F5F4;
+  border: none;
+  margin: 0.3rem;
+}
+
+.k-action-buttons .k-button:last-child:hover {
+  color: #E5F5F4;
+  background-color: white !important;
+}
+
+.k-action-buttons {
+  border: none;
+}
+
+/*
+.swal2-icon {
+    border-color: red !important;
+    color: red;
+}
+
+.swal2-title{
+    color: #211D29;
+}
+*/
+.k-button {
+  border-radius: 5px !important;
+  margin: 0.5rem !important;
+}
+
+.k-button.k-primary {
+  color: white !important;
+  background-color: #27C1A7 !important;
+  border-color: #27C1A7 !important;
+  border-radius: 5px !important;
+  margin: 0.5rem !important;
+}
+
+.k-grid .k-grid-toolbar {
+  background: white !important;
+  border: none !important;
+}
+
+.k-dialog-buttongroup {
+  border: none !important;
+}
+
+.modal .modal-header .close {
+  transform: translate(5px, 3px);
+  margin-right: 1px;
+}
+
+/*# sourceMappingURL=kendo-custom-config.css.map */

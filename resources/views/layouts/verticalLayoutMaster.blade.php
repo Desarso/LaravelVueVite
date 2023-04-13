@@ -2,8 +2,8 @@
   class="vertical-layout vertical-menu-modern 2-columns {{ $configData['blankPageClass'] }} {{ $configData['bodyClass']}} {{($configData['theme'] === 'light') ? '' : $configData['layoutTheme'] }}  {{ $configData['verticalMenuNavbarType'] }} {{ $configData['sidebarClass'] }} {{ $configData['footerType'] }}"
   data-menu="vertical-menu-modern" data-col="2-columns" data-layout="{{ $configData['theme'] }}">
 
-  //removed side bar
- 
+   {{-- Include Sidebar --}}
+  @include('panels.sidebar')
   <div id="divLoading"> 
     </div>
   <!-- BEGIN: Content-->
@@ -12,10 +12,8 @@
     <div class="content-overlay"></div>
     <div class="header-navbar-shadow"></div>
 
-
-    //removed nav bar
     {{-- Include Navbar --}}
-
+    @include('panels.navbar')
 
     @if(($configData['contentLayout']!=='default') && isset($configData['contentLayout']))
     <div class="content-area-wrapper">
@@ -49,10 +47,22 @@
   </div>
   <!-- End: Content-->
 
+    @if($configData['blankPage'] == false && isset($configData['blankPage']))
+    @include('pages/customizer')
+
+    @include('pages/create-task-button')
+    @endif
+
   
 
   <div class="sidenav-overlay"></div>
   <div class="drag-target"></div>
+
+    {{-- include footer --}}
+    @include('panels/footer')
+
+    {{-- include default scripts --}}
+    @include('panels/scripts')
 
 
 

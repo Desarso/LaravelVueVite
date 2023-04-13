@@ -14,7 +14,8 @@ class UserScheduleRepository
 
     public function __construct()
     {
-        $this->defaultIdSchedule = DB::table('wh_shift')->where('id', 9999)->first()->id;
+        $schedule = DB::table('wh_shift')->where('id', 9999)->first();
+        $this->defaultIdSchedule = $schedule ? $schedule->id : null;
     }
 
     public function getUserSchedule($request)

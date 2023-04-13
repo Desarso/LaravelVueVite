@@ -1,0 +1,17 @@
+/* Error: Undefined variable.
+ *     ,
+ * 236 |     box-shadow: 0 2px 5px 0 rgba($pure-black,0.16),0 2px 10px 0 rgba($pure-black,0.12)
+ *     |                                  ^^^^^^^^^^^
+ *     '
+ *   resources\sass\components\helper.scss 236:34  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a     \2577 \a 236 \2502      box-shadow: 0 2px 5px 0 rgba($pure-black,0.16),0 2px 10px 0 rgba($pure-black,0.12)\a     \2502                                   ^^^^^^^^^^^\a     \2575 \a   resources\\sass\\components\\helper.scss 236:34  root stylesheet";
+}

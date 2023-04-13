@@ -1,0 +1,289 @@
+{
+    "menu": [{
+            "url": "",
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "badge": "2",
+            "badgeClass": "badge badge-warning badge-pill float-right mr-2",
+            "icon": "feather icon-home",
+            "submenu": [{
+                    "url": "dashboard-tasks",
+                    "name": "Tasks",
+                    "icon": "feather icon-circle",
+                    "i18n": "nav.dashboard_tasks"
+                },
+                {
+                    "url": "dashboard-cleaning",
+                    "name": "Cleaning",
+                    "icon": "fad fa-broom",
+                    "i18n": "nav.dashboard_cleaningschedule"
+                },
+                {
+                    "url": "dashboard-production",
+                    "name": "Production",
+                    "icon": "fad fa-cogs",
+                    "i18n": "nav.dashboard_production"
+                }
+            ]
+        },
+        {
+            "url": "",
+            "navheader": "Apps",
+            "icon": ""
+        },
+        {
+            "url": "app-calender",
+            "name": "Calendar",
+            "icon": "feather icon-calendar",
+            "i18n": "nav.app_calender"
+        },
+        {
+            "url": "app-file-manager",
+            "name": "File Manager",
+            "icon": "feather icon-save",
+            "i18n": "nav.app_calender"
+        },
+        {
+            "url": "maps-google",
+            "name": "Maps",
+            "icon": "fal fa-map",
+            "i18n": "nav.maps_google"
+        },
+        {
+            "url": "maps-google",
+            "name": "Attendance",
+            "icon": "fal fa-map-marker-smile",
+            "i18n": "nav.maps_google"
+        },
+        {
+            "url": "maps-google",
+            "name": "Cleaning",
+            "icon": "fal fa-broom",
+            "i18n": "nav.maps_google"
+        },
+
+        {
+            "url": "",
+            "navheader": "Analytics",
+            "icon": ""
+        },
+        {
+            "url": "",
+            "name": "Charts",
+            "icon": "feather icon-pie-chart",
+            "badge": "3",
+            "badgeClass": "badge badge-pill badge-success float-right mr-2",
+            "submenu": [{
+                    "url": "reports-general",
+                    "name": "General Report",
+                    "icon": "feather icon-circle",
+                    "i18n": "nav.reports-general"
+                }, 
+                {
+                    "url": "warehouse-report",
+                    "name": "Warehouse Report",
+                    "icon": "feather icon-circle",
+                    "i18n": "nav.warehouse-report"
+                },
+                {
+                    "url": "chart-apex",
+                    "name": "Apex",
+                    "icon": "feather icon-circle",
+                    "i18n": "nav.chart_apex"
+                },
+                {
+                    "url": "chart-chartjs",
+                    "name": "Chartjs",
+                    "icon": "feather icon-circle",
+                    "i18n": "nav.chart_chartjs"
+                },
+                {
+                    "url": "chart-echarts",
+                    "name": "Echarts",
+                    "icon": "feather icon-circle",
+                    "i18n": "nav.chart_echarts"
+                }
+
+            ]
+        },
+        {
+            "url": "app-file-manager",
+            "name": "Gamification",
+            "icon": "fal fa-gamepad",
+            "i18n": "nav.app_calender"
+        },
+
+        {
+            "url": "chart-echarts",
+            "name": "Usage",
+            "icon": "feather icon-circle",
+            "i18n": "nav.chart_echarts"
+        },
+        {
+            "url": "",
+            "navheader": "Configuration",
+            "icon": ""
+        },
+        {
+            "url": "config-dashboard",
+            "name": "Dashboard",
+            "icon": "feather icon-server",
+            "i18n": "nav.configdashboard"
+        },
+
+        {
+            "url": "app-file-manager",
+            "name": "Settings",
+            "icon": "fal fa-tools",
+            "submenu": [{
+                    "url": "",
+                    "name": "Tasks",
+                    "badge": "New",
+                    "badgeClass": "badge badge-primary badge-pill float-right mr-2",
+                    "icon": "fad fa-tools",
+                    "submenu": [{
+                            "url": "config-items",
+                            "name": "Items",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.items"
+                        },
+                        {
+                            "url": "config-tasktypes",
+                            "name": "Task Types",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.taskTypes"
+                        },
+                        {
+                            "url": "config-projects",
+                            "name": "Projects",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.projects"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "name": "Users",
+                    "badge": "New",
+                    "badgeClass": "badge badge-primary badge-pill float-right mr-2",
+                    "icon": "fad fa-user",
+                    "submenu": [{
+                            "url": "config-users",
+                            "name": "Users",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.users"
+                        },
+                        {
+                            "url": "config-teams",
+                            "name": "Teams",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spotTypes"
+                        },
+                        {
+                            "url": "config-roles",
+                            "name": "Roles",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spotTypes"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "name": "Spots",
+                    "badge": "New",
+                    "badgeClass": "badge badge-primary badge-pill float-right mr-2",
+                    "icon": "fad fa-house",
+                    "submenu": [{
+                            "url": "config-spots",
+                            "name": "Spots",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spots"
+                        },
+                        {
+                            "url": "config-spottypes",
+                            "name": "Spot Types",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spotTypes"
+                        }
+                    ]
+                },
+                {
+                    "url": "config-assets",
+                    "name": "Assets",
+                    "icon": "fas fa-forklift",
+                    "i18n": "nav.assets"
+                },
+                {
+                    "url": "",
+                    "name": "Cleaning",
+                    "badge": "New",
+                    "badgeClass": "badge badge-primary badge-pill float-right mr-2",
+                    "icon": "fad fa-broom",
+                    "submenu": [{
+                            "url": "config-cleaningschedules",
+                            "name": "Schedules",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spots"
+                        },
+                        {
+                            "url": "config-cleaningtypes",
+                            "name": "Cleaning Types",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spotTypes"
+                        }
+                    ]
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "url": "page-account-settings",
+            "name": "Preferences",
+            "icon": "fas fa-cog",
+            "i18n": "nav.page_account_settings"
+        },
+
+
+        {
+            "url": "",
+            "name": "Support",
+            "slug": "dashboard",
+            "badge": "2",
+            "badgeClass": "badge badge-warning badge-pill float-right mr-2",
+            "icon": "fas fa-question",
+            "submenu": [{
+                    "url": "page-faq",
+                    "name": "FAQ",
+                    "icon": "feather icon-help-circle",
+                    "i18n": "nav.page_faq"
+                },
+                {
+                    "url": "page-knowledge-base",
+                    "name": "Knowledge Base",
+                    "icon": "feather icon-info",
+                    "i18n": "nav.page_knowledge_base"
+                },
+                {
+                    "url": "https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-laravel.html",
+                    "name": "Documentation",
+                    "icon": "feather icon-folder",
+                    "i18n": "nav.documentation"
+                },
+                {
+                    "url": "https://pixinvent.ticksy.com/",
+                    "name": "Support",
+                    "icon": "feather icon-life-buoy",
+                    "i18n": "nav.raise_support"
+                }
+            ]
+        }
+
+
+
+
+    ]
+}

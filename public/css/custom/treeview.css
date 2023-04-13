@@ -1,0 +1,36 @@
+html .k-dialog .k-window-titlebar {
+  padding-left: 17px;
+}
+
+.k-dialog .k-content {
+  padding: 17px;
+}
+
+#filterText {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+}
+
+.selectAll {
+  margin: 17px 0;
+}
+
+#result {
+  color: #9ca3a6;
+  float: right;
+}
+
+#treeview {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #d9d9d9;
+}
+
+#openWindow {
+  min-width: 180px;
+}
+
+/*# sourceMappingURL=treeview.css.map */

@@ -1,0 +1,95 @@
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .data-list-view-header .add-new-data-sidebar .add-new-data .data-items {
+    height: calc(90vh - 10rem) !important;
+  }
+  .col-sm-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 20px !important;
+    padding-left: 14px !important;
+  }
+  #btnLog {
+    width: 75px;
+    padding: 5px;
+  }
+  .bar-menu-table .form-label-group:nth-child(1) {
+    margin: 10px 10px !important;
+  }
+  .bar-menu-table .form-label-group {
+    margin: 10px 10px !important;
+  }
+  .order-elements {
+    width: 100% !important;
+    flex-wrap: wrap !important;
+  }
+  .filter-select {
+    margin-left: 10px;
+  }
+  .bar-menu-table {
+    display: contents;
+  }
+  #dateRangePicker,
+  #filterList {
+    min-width: 100px !important;
+  }
+  .table-responsive {
+    width: 150rem;
+  }
+  .k-filter-lines .k-filter-item .k-filter-toolbar .k-toolbar .k-filter-toolbar-item:nth-child(4) {
+    width: 40px;
+  }
+  .k-toolbar .k-filter-toolbar-item:nth-child(1) {
+    width: 40%;
+  }
+  .k-filter-toolbar-item {
+    width: 46%;
+  }
+  .k-filter-toolbar-item input {
+    width: 100%;
+  }
+  /* .k-selectable tbody tr td:nth-child(9),
+  .k-selectable tbody tr td:nth-child(10),
+  .k-grid-header-wrap table thead tr th:nth-child(9),
+  .k-grid-header-wrap table thead tr th:nth-child(10),
+  .k-grid-header-wrap table thead tr th:first-child,
+  .k-selectable tbody tr td:first-child{
+    display: none;
+  }
+  */
+  .container-efficiency {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -14px;
+    margin-left: -14px;
+    flex-direction: column;
+    width: 70rem;
+  }
+  .modalFilterEdit {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+  }
+  .modalFilterEdit .k-widget {
+    width: 100% !important;
+  }
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px) {
+  /* styles */
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) {
+  /* styles */
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) {
+  /* styles */
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px) {
+  /* styles */
+}
+
+/*# sourceMappingURL=responsive.css.map */

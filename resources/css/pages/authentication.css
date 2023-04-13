@@ -1,0 +1,73 @@
+/*========================================================
+        DARK LAYOUT
+=========================================================*/
+.bg-authentication {
+  background-color: #eff2f7;
+}
+.bg-authentication .login-footer {
+  padding: 0rem 1.5rem 0.5rem;
+}
+.bg-authentication .login-footer .footer-btn .btn {
+  padding: 0.9rem 1.2rem !important;
+  margin: 1rem 1rem 1rem 0rem;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bg-authentication {
+    width: 100%;
+  }
+}
+#title-login {
+  color: white !important;
+  font-weight: 600 !important;
+  margin-top: 80px !important;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0) !important;
+  box-shadow: none;
+}
+
+#btn-login {
+  border-radius: 50px;
+  background-color: #0e70a3 !important;
+}
+
+.input-login {
+  border-radius: 50px;
+  color: #3a9fa0 !important;
+  border-color: rgba(255, 255, 255, 0) !important;
+  /*height: 40px !important;*/
+  font-size: inherit !important;
+  font-weight: 500 !important;
+}
+
+.icon-login {
+  color: #3a9fa0 !important;
+  font-size: 25px !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #3a9fa0 !important;
+}
+
+hr {
+  border-top: 2px solid white;
+}
+
+#text-version {
+  font-weight: 600;
+  color: white;
+}
+
+#text-client {
+  color: white;
+}
+
+.invalid-feedback {
+  color: #f9e714;
+  font-size: inherit;
+}
+
+/*# sourceMappingURL=authentication.css.map */

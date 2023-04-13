@@ -3,9 +3,7 @@
 namespace App\Http\Controllers\Config;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Repositories\AppRepository;
-
 
 class AppController extends Controller
 {
@@ -13,7 +11,7 @@ class AppController extends Controller
 
     public function __construct(AppRepository $app)
     {
-        // $this->middleware('auth', ['only' => 'index']);
+        $this->middleware('auth', ['only' => 'index']);
         $this->app = $app;
     }
 
@@ -28,7 +26,7 @@ class AppController extends Controller
         ];
 
         return view('/pages/config/apps/index', [
-            'apps'        => $this->app->getAll(),  
+            'apps' => $this->app->getAll(),
             'pageConfigs' => $pageConfigs,
             'breadcrumbs' => $breadcrumbs,
         ]);
@@ -38,5 +36,4 @@ class AppController extends Controller
     {
         return $this->app->getAllAPP();
     }
-
 }

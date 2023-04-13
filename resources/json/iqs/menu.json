@@ -1,0 +1,119 @@
+{
+    "menu": [{
+            "url": "",
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "badge": "1",
+            "badgeClass": "badge badge-warning badge-pill float-right mr-2",
+            "icon": "feather icon-home",
+            "submenu": [{
+                "url": "dashboard-tasks",
+                "name": "Tasks",
+                "icon": "feather icon-circle",
+                "i18n": "nav.dashboard_tasks"
+            }]
+        },
+        {
+            "url": "",
+            "navheader": "Configuration",
+            "icon": ""
+        },
+        {
+            "url": "config-dashboard",
+            "name": "Dashboard",
+            "icon": "feather icon-server",
+            "i18n": "nav.configdashboard"
+        },
+        {
+            "url": "app-file-manager",
+            "name": "Settings",
+            "icon": "fal fa-tools",
+            "submenu": [{
+                    "url": "",
+                    "name": "Tasks",
+                    "badge": "New",
+                    "badgeClass": "badge badge-primary badge-pill float-right mr-2",
+                    "icon": "fad fa-tools",
+                    "submenu": [{
+                            "url": "config-items",
+                            "name": "Items",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.items"
+                        },
+                        {
+                            "url": "config-tasktypes",
+                            "name": "Task Types",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.taskTypes"
+                        },
+                        {
+                            "url": "config-projects",
+                            "name": "Projects",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.projects"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "name": "Users",
+                    "badge": "New",
+                    "badgeClass": "badge badge-primary badge-pill float-right mr-2",
+                    "icon": "fad fa-user",
+                    "submenu": [{
+                            "url": "config-users",
+                            "name": "Users",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.users"
+                        },
+                        {
+                            "url": "config-teams",
+                            "name": "Teams",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spotTypes"
+                        },
+                        {
+                            "url": "config-roles",
+                            "name": "Roles",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spotTypes"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "name": "Spots",
+                    "badge": "New",
+                    "badgeClass": "badge badge-primary badge-pill float-right mr-2",
+                    "icon": "fad fa-house",
+                    "submenu": [{
+                            "url": "config-spots",
+                            "name": "Spots",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spots"
+                        },
+                        {
+                            "url": "config-spottypes",
+                            "name": "Spot Types",
+                            "icon": "feather icon-circle",
+                            "i18n": "nav.spotTypes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "",
+            "name": "Support",
+            "slug": "dashboard",
+            "badgeClass": "badge badge-warning badge-pill float-right mr-2",
+            "icon": "fas fa-question",
+            "submenu": [{
+                "url": "https://www.whagons.com/soporte.html",
+                "name": "Contact Support",
+                "icon": "feather icon-help-circle",
+                "i18n": "nav.documentation"
+            }]
+        }
+    ]
+}

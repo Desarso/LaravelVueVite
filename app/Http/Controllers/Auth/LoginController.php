@@ -61,6 +61,8 @@ class LoginController extends Controller
           'blankPage' => true
       ];
 
+    //   dd($pageConfigs);
+
       return view('/auth/login', [
           'pageConfigs' => $pageConfigs
       ]);

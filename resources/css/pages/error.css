@@ -1,0 +1,13 @@
+.error-code {
+  font-size: 10rem;
+}
+
+.flexbox-container {
+  display: flex !important;
+  align-items: center !important;
+  height: 100vh !important;
+  height: calc(var(--vh, 1vh) * 100) !important;
+  justify-content: center !important;
+}
+
+/*# sourceMappingURL=error.css.map */

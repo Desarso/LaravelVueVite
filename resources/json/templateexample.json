@@ -1,0 +1,47 @@
+{
+    "template": [
+        [{
+            "field": "iditem",
+            "label": "Tarea",
+            "width": "100"
+        }],
+        [{
+                "field": "spot",
+                "label": "Cliente",
+                "width": "50"
+            },
+            {
+                "field": "cost",
+                "name": "Costo por hora",
+                "width": "50"
+            }
+        ],
+        [{
+            "field": "quantity",
+            "name": "Cantidad",
+            "width": "100"
+        }]
+        [{
+            "field": "code",
+            "name": "OT",
+            "width": "50"
+        }, {
+            "field": "duedate",
+            "name": "Fecha de Entrega",
+            "width": "50"
+        }],
+        [{
+            "field": "dynamic.color",
+            "name": "Color",
+            "width": "100"
+        }],
+        [{
+            "field": "signature",
+            "name": "Firma",
+            "width": "100"
+        }]
+
+        Recursos, Copiado, Etiquetas, Prioridad
+
+    ]
+}

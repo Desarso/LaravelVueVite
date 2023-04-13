@@ -1,0 +1,120 @@
+#form-container {
+  /*border: 1px solid lightgray;*/
+  height: 100%;
+  padding: 10px;
+  font-family: Lato, Open Sans, sans-serif;
+  background-color: white;
+}
+
+#form-panel {
+  border: 10px solid #1E88E5;
+  min-height: 650px;
+  border-radius: 20px;
+}
+
+#items-panel {
+  height: 450px;
+  padding: 10px;
+}
+
+#controls-panel {
+  margin-top: 30px;
+}
+
+.itemForm {
+  margin: 4px 4px 0px 0px;
+  width: 100%;
+  height: 37px;
+  border: 1px solid #ADD2E5;
+  float: left;
+  z-index: 200;
+  border-radius: 9px;
+  background: #C3D3FD;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.itemFormLabel {
+  float: left;
+  height: 38px;
+  line-height: 34px;
+  padding-left: 34px;
+  padding-top: 0px;
+  margin-top: -3px;
+  font-size: 14px;
+  width: 200px;
+  color: #000000;
+}
+
+.draft {
+  float: left;
+  width: 100%;
+  background: #F2F2F2;
+  border-radius: 5px;
+}
+
+.itemUser:first-child,
+.itemUser:last-child {
+  border-radius: 0px;
+}
+
+.itemUser {
+  width: 98%;
+  min-height: 55px;
+  margin: 0 1% 0 1%;
+  padding: 10px;
+  border: 1px solid #eeeeee;
+  background-color: white;
+}
+
+.itemUser:hover {
+  background-color: #C3D3FD;
+}
+
+.draftIconDisplay {
+  float: left;
+}
+
+.draftNameDisplay {
+  float: left;
+  min-width: 125px;
+  width: 75%;
+}
+
+.draftEditIconDisplay {
+  float: right;
+}
+
+/*
+.btn {
+    padding: 7px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+*/
+.itemUser.formSelected {
+  background-color: #FFB63D;
+}
+
+#listA,
+#listB {
+  height: 600px;
+  margin: 8px;
+  border-radius: 3px;
+  border-color: rgba(33, 37, 41, 0.125) !important;
+}
+
+.item {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.fa-edit,
+.fa-trash {
+  font-size: 1.4rem !important;
+}
+
+/*# sourceMappingURL=formbuilder.css.map */

@@ -1,0 +1,14 @@
+.k-widget {
+  font-family: "Montserrat", Helvetica, Arial, serif;
+}
+
+.k-pager-wrap .k-link {
+  color: #7367f0;
+}
+
+.k-pager-numbers .k-state-selected {
+  border-color: #7367f0;
+  background-color: #7367f0;
+}
+
+/*# sourceMappingURL=kendo-custom.css.map */

@@ -24,7 +24,6 @@
 <div class="container-fluid">
 
   <div class="row">
-  hello there
     @foreach ($apps as $app)
         <div class="col-md-3 col-lg-2">
 

@@ -1,0 +1,23 @@
+.badge-spot {
+  height: 30px !important;
+  /*min-width:125px !important;*/
+  width: auto;
+  cursor: grab;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.k-grid .k-grid-search {
+  width: 100%;
+}
+
+.tr-spot {
+  cursor: grab !important;
+}
+
+#cleaning-progress-bar {
+  height: 1rem !important;
+}
+
+/*# sourceMappingURL=cleaning-assign.css.map */

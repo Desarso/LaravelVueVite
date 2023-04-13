@@ -1,0 +1,124 @@
+{
+    "plan": [
+      {
+        "icon": "fad fa-car-building",
+        "name": "Spot Types",
+        "color": "#144A75",
+        "table": "wh_spot_type",
+        "maxvalue": 10,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-store-alt",
+        "name": "Spots",
+        "color": "#1F73B7",
+        "table": "wh_spot",
+        "maxvalue": 100,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-flask-potion",
+        "name": "Task Types",
+        "color": "#E34F31",
+        "table": "wh_ticket_type",
+        "maxvalue": 10,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-tools",
+        "name": "Items",
+        "color": "#C72A1B",
+        "table": "wh_item",
+        "maxvalue": 200,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-forklift",
+        "name": "Assets",
+        "color": "#FEBB10",
+        "table": "wh_asset",
+        "maxvalue": 50,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-project-diagram",
+        "name": "Projects",
+        "color": "#2E9975",
+        "table": "wh_project",
+        "maxvalue": 100,
+        "enabled": false
+      },
+      {
+        "icon": "fad fa-users",
+        "name": "Users",
+        "color": "#6A27B9",
+        "table": "wh_user",
+        "maxvalue": 50,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-users-class",
+        "name": "Teams",
+        "color": "#B552E3",
+        "table": "wh_team",
+        "maxvalue": 10,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-broom",
+        "name": "Cleaning Schedule",
+        "color": "#5AB9EA",
+        "table": "wh_cleaning_schedule",
+        "maxvalue": 100,
+        "enabled": false
+      },
+      {
+        "icon": "fad fa-magic",
+        "name": "Dynamic Fields",
+        "color": "#ED553B",
+        "table": "wh_dynamic_field",
+        "maxvalue": 5,
+        "enabled": false
+      },
+      {
+        "icon": "fad fa-tasks",
+        "name": "Checklists",
+        "color": "#F5A133",
+        "table": "wh_checklist",
+        "maxvalue": 50,
+        "enabled": true
+      },
+      {
+        "icon": "fad fa-hard-hat",
+        "name": "Protocols",
+        "color": "#60CBDF",
+        "table": "wh_protocol",
+        "maxvalue": 30,
+        "enabled": false
+      },
+      {
+        "icon": "fad fa-conveyor-belt-alt",
+        "name": "Equipment",
+        "color": "#15C286",
+        "table": "wh_equipment",
+        "maxvalue": 30,
+        "enabled": false
+      },
+      {
+        "icon": "fad fa-mug-tea",
+        "name": "Products",
+        "color": "#1F73B7",
+        "table": "wh_product",
+        "maxvalue": 500,
+        "enabled": false
+      },
+      {
+        "icon": "fad fa-cogs",
+        "name": "Production",
+        "color": "#CB3340",
+        "table": "wh_production",
+        "maxvalue": 100000,
+        "enabled": false
+      }
+    ]
+  }

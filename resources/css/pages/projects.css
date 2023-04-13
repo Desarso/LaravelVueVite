@@ -1,0 +1,27 @@
+.color-project {
+  color: #ff5722;
+}
+
+.k-grid th {
+  border-width: 0 0 0px 0px;
+}
+
+.k-i-filter::before {
+  color: #7367F0;
+  opacity: 0.5;
+}
+
+.progress.progress-sm {
+  height: 1rem !important;
+}
+
+a.project {
+  text-decoration: none;
+}
+
+a.project:hover,
+a.project:visited {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=projects.css.map */

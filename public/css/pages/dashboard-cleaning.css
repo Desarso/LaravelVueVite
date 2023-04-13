@@ -1,0 +1,101 @@
+#listViewSpots {
+  border: none !important;
+  background: transparent !important;
+}
+
+.k-listview-item {
+  background: transparent !important;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.divider {
+  width: 98% !important;
+  margin-left: 14px !important;
+  margin-right: 14px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.divider-text {
+  background-color: transparent !important;
+}
+
+.cleaning-counter {
+  width: 30px;
+  font-size: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: -8px -8px 0 0;
+  border: 1px white solid;
+  background-color: orangered;
+  z-index: 1000;
+  color: white;
+  animation: blinker25 3s linear infinite;
+}
+
+.k-checkbox:checked {
+  border-color: #ff6358 !important;
+  color: #fff !important;
+  background-color: #ff6358 !important;
+}
+
+.k-checkbox:checked:focus {
+  border-color: #ff6358;
+  box-shadow: 0 0 0 2px rgba(240, 133, 83, 0.3);
+}
+
+.k-grid td.k-state-selected, .k-grid th.k-state-selected, .k-grid tr.k-state-selected > td {
+  background-color: rgba(255, 99, 88, 0.25) !important;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 55%;
+  }
+  50% {
+    background-position: 100% 46%;
+  }
+  100% {
+    background-position: 0% 55%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 55%;
+  }
+  50% {
+    background-position: 100% 46%;
+  }
+  100% {
+    background-position: 0% 55%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 55%;
+  }
+  50% {
+    background-position: 100% 46%;
+  }
+  100% {
+    background-position: 0% 55%;
+  }
+}
+@keyframes blinker100 {
+  50% {
+    opacity: 0%;
+  }
+}
+@keyframes blinker25 {
+  50% {
+    opacity: 10%;
+  }
+}
+
+/*# sourceMappingURL=dashboard-cleaning.css.map */

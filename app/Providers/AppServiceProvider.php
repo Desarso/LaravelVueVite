@@ -70,8 +70,10 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        
         if(Schema::hasTable('wh_ticket_status'))
         {
+
             view()->composer('*', function($view)
             {
                 $organization = DB::table('wh_organization')->first();
@@ -105,6 +107,8 @@ class AppServiceProvider extends ServiceProvider
                     View::share('global_assets',       $asset->getList());
                     View::share('global_checklist',    $checklist->getList());
                     View::share('global_roles',        $role->getList());
+
+                    dd('view composer executed');
                 }
 
                 View::share('organization', json_encode($organization));

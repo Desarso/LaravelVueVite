@@ -6,9 +6,9 @@ ifeq ("$(wildcard .env)","")
 	cp .env.example .env
 endif
 	@docker compose build --no-cache && docker compose up -d
-	@docker exec -it laravelvuevite-devContainer-1 npm install
-	@docker exec -it laravelvuevite-devContainer-1 composer install
-	@docker exec -it laravelvuevite-devContainer-1 php artisan key:generate
+	@docker exec -it test3-devContainer-1 npm install
+	@docker exec -it test3-devContainer-1 composer install
+	@docker exec -it test3-devContainer-1 php artisan key:generate
 
 
 
